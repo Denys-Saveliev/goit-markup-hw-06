@@ -742,6 +742,7 @@ justify-content: center;
 
 .form-textarea {
     resize: none;
+    padding: 12px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px; 
@@ -751,7 +752,7 @@ justify-content: center;
 } 
 
 .form-textarea::placeholder {
-    padding: 12px 16px;
+    
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -766,7 +767,7 @@ justify-content: center;
     margin-bottom: 30px;
 }
 
-.form-agree label {
+.form-agree-label {
     font-weight: 400;
     font-size: var(--primary-font-size);
     line-height: 1.71;
