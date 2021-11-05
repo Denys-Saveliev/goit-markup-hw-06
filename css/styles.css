@@ -609,7 +609,10 @@ justify-content: center;
 }
 
 .mailing-btn {
-    display: block;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 30px;   
     height: 50px;
     width: 200px;
     font-weight: 700;
@@ -623,6 +626,13 @@ justify-content: center;
     color: var(--hero-text-color);
     background-color: var(--accent-color); 
 } 
+
+.btn-icon {
+    height: 24px;
+    min-width: 24px;
+    margin-left: 10px;
+    fill: var(--hero-text-color);
+}
 
 /* Backdrop */
 
