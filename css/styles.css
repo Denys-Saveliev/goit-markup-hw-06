@@ -680,7 +680,8 @@ justify-content: center;
     border-radius: 50%;
     cursor: pointer;
     background-color: var(--hero-text-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-icon {
@@ -696,6 +697,7 @@ justify-content: center;
 .modal-btn:focus {
     cursor: pointer;
     fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .form-title {
@@ -823,6 +825,10 @@ justify-content: center;
     border-radius: 2px;
     background-size: cover;
     background-position: 50% 50%;
+    border: 2px solid var(--accent-color);
+}
+
+.form-agree-input:focus + .form-agree-icon {
     border: 2px solid var(--accent-color);
 }
 
